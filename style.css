@@ -80,6 +80,10 @@ input:focus {
     width: 50%;
 }
 
+.btn-enviar:hover{
+    cursor: pointer;
+}
+
 form {
     border-radius: 10px;
     margin: -20px auto;
