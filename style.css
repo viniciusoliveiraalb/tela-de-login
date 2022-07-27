@@ -1,8 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --fontheader: "squada one";
+
 }
 
 .container {
@@ -13,13 +19,17 @@
 }
 
 .logo {
-    margin: auto;
+    box-sizing: border-box;
+    margin: 20px auto -10px auto;
     height: 100px;
-    width: 100px;
 }
 
-.logo>img {
-    height: 100px;
+#logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: var(--fontheader);
+    text-decoration: none;
+    color: #003b5f;
 }
 
 .box-form {
@@ -48,7 +58,7 @@ a {
     color: #8400ff;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -80,7 +90,7 @@ input:focus {
     width: 50%;
 }
 
-.btn-enviar:hover{
+.btn-enviar:hover {
     cursor: pointer;
 }
 
@@ -140,7 +150,4 @@ form {
         width: 300px;
     }
 
-    form {
-        height: 200px;
-    }
 }
