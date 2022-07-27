@@ -24,7 +24,7 @@
     height: 100px;
 }
 
-#logo {
+#logo{ 
     font-size: 4rem;
     font-weight: bolder;
     font-family: var(--fontheader);
